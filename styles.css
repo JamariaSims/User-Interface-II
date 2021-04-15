@@ -64,7 +64,6 @@ body{
     padding: 5%;
     background:#F2545B;
     color: #f3a0a0;
-    text-decoration: none;
     border: solid #F3F7F0  0.5px;
 }
 .header a:hover{
@@ -97,8 +96,8 @@ h1{
 .center_info a{
     font-size: 30px;
     padding: 1%;
-    background: #F2545B;
-    color:#f3a0a0; ;
+    background:#F2545B;
+    color: #f3a0a0;
 }
 .center_info a:hover{
     background:#A93F55;
@@ -123,7 +122,7 @@ h1{
     align-items: center;
 }
 .projects_container1 a{
-    background: #F2545B;
+    background:#F2545B;
     padding: 3%;
     font-size: 20px;
     color: #f3a0a0;
@@ -152,7 +151,7 @@ h1{
     align-items: center;
 }
 .projects_container2 a{
-    background: #F2545B;
+    background:#F2545B;
     padding: 3%;
     font-size: 20px;
     color: #f3a0a0;
@@ -171,6 +170,9 @@ h1{
 .contact_container a{
     color: #f3a0a0;
     font-size: 20px;
+}
+.contact_container a:hover{
+    background:#F2545B;
 }
 
 
