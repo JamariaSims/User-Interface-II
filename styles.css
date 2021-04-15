@@ -63,9 +63,12 @@ body{
 .header a{
     padding: 5%;
     background:#F2545B;
-    color: black;
+    color: #f3a0a0;
     text-decoration: none;
     border: solid #F3F7F0  0.5px;
+}
+.header a:hover{
+    background:#A93F55;
 }
 ul{
     display: flex;
@@ -95,7 +98,10 @@ h1{
     font-size: 30px;
     padding: 1%;
     background: #F2545B;
-    color:black ;
+    color:#f3a0a0; ;
+}
+.center_info a:hover{
+    background:#A93F55;
 }
 .projects_container1{
     width: 100%;
@@ -116,10 +122,14 @@ h1{
     flex-direction: column;
     align-items: center;
 }
-.projects_container1 h1{
+.projects_container1 a{
     background: #F2545B;
     padding: 3%;
     font-size: 20px;
+    color: #f3a0a0;
+}
+.projects_container1 a:hover{
+    background:#A93F55;
 }
 .projects_container2{
     width: 100%;
@@ -141,10 +151,14 @@ h1{
     flex-direction: column;
     align-items: center;
 }
-.projects_container2 h1{
+.projects_container2 a{
     background: #F2545B;
     padding: 3%;
     font-size: 20px;
+    color: #f3a0a0;
+}
+.projects_container2 a:hover{
+    background:#A93F55;
 }
 .contact_container{
     width: 100%;
@@ -155,7 +169,7 @@ h1{
     text-align: center;
 }
 .contact_container a{
-    color: black;
+    color: #f3a0a0;
     font-size: 20px;
 }
 
