@@ -86,6 +86,7 @@ h1{
 }
 .img_container img{
     box-sizing: border-box;
+    object-fit: scale-down;
 
 }
 .center_info{
