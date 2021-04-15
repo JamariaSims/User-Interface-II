@@ -1,1 +1,177 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* reset above */
+
+* a{
+    text-decoration: none;
+}
+body{
+    background:#F3F7F0 ;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header a{
+    padding: 5%;
+    background:#F2545B;
+    color: #f4c1c1;
+    border: solid #F3F7F0  0.5px;
+}
+.header a:hover{
+    background:#A93F55;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    font-size: 40px;
+}
+.img_container{
+    width: 100%;
+    margin: 0%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+.img_container img{
+    box-sizing: border-box;
+
+}
+.center_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center_info a{
+    font-size: 30px;
+    padding: 1%;
+    background:#F2545B;
+    color: #f4c1c1;
+}
+.center_info a:hover{
+    background:#A93F55;
+}
+.projects_container1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+}
+.projects_container1 img{
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    padding: 5%;
+    padding-bottom: 0%;
+}
+.projects_container1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects_container1 a{
+    background:#F2545B;
+    padding: 3%;
+    font-size: 20px;
+    color: #f4c1c1;
+}
+.projects_container1 a:hover{
+    background:#A93F55;
+}
+.projects_container2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    margin-bottom: 4%;
+}
+.projects_container2 img{
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    padding: 5%;
+    padding-bottom: 0%;
+}
+.projects_container2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects_container2 a{
+    background:#F2545B;
+    padding: 3%;
+    font-size: 20px;
+    color: #f4c1c1;
+}
+.projects_container2 a:hover{
+    background:#A93F55;
+}
+.contact_container{
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+    background:#A93F55;
+    text-decoration: none;
+    text-align: center;
+}
+.contact_container a{
+    color: #f4c1c1;
+    font-size: 20px;
+}
+.contact_container a:hover{
+    background:#F2545B;
+}
+
