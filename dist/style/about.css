@@ -63,6 +63,8 @@ body{
 }
 .header a{
     padding: 5%;
+    margin: auto;
+    text-align: center;
     background:#F2545B;
     color: #f4c1c1;
     border: solid #F3F7F0  0.5px;
