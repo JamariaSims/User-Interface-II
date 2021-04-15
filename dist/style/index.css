@@ -116,6 +116,7 @@ h1{
     height: 350px;
     padding: 5%;
     padding-bottom: 0%;
+    object-fit: cover;
 }
 .projects_container1 div{
     display: flex;
@@ -145,6 +146,7 @@ h1{
     height: 350px;
     padding: 5%;
     padding-bottom: 0%;
+    object-fit: fill;
 }
 .projects_container2 div{
     display: flex;
