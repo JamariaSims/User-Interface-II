@@ -60,6 +60,9 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
+.header h1{
+    font-size: 300%;
+}
 .header a{
     padding: 5%;
     background:#F2545B;
@@ -178,3 +181,47 @@ h1{
     background:#F2545B;
 }
 
+@media screen and (max-width : 600px){
+*{
+    padding: 0%;
+    margin: 0%;
+    flex-direction: column;
+}
+.header{
+    flex-direction: column;
+}
+.header h1{
+    padding: auto;
+    margin: auto;
+}
+ul{
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    padding: auto;
+    margin: auto;
+}
+.projects_container1{
+    display: flex;
+    flex-direction: column;
+}
+.projects_container1 img{
+    width: 50%;
+    object-fit: scale-down;
+}
+.projects_container2{
+    display: flex;
+    flex-direction: column;
+}
+.projects_container2 img{
+    width: 50%;
+    object-fit: scale-down;
+    }
+    .center_info{
+        flex-direction: column;
+        justify-content: center;
+    }
+.img_container{
+    align-items: center;
+}
+}
