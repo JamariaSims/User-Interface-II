@@ -216,11 +216,11 @@ ul{
 .projects_container2 img{
     width: 50%;
     object-fit: scale-down;
-    }
-    .center_info{
+}
+.center_info{
         flex-direction: column;
         justify-content: center;
-    }
+}
 .img_container{
     align-items: center;
 }

@@ -57,12 +57,17 @@ body{
 .header{
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
     margin-bottom: 2%;
 }
+.header h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 .header a{
-    padding: 5%;
+    padding: 1%;
+    font-size: 150%;
     margin: auto;
     text-align: center;
     background:#F2545B;
@@ -75,19 +80,24 @@ body{
 ul{
     display: flex;
     flex-direction: row;
+    padding: auto;
+    margin: 1%;
+    margin-bottom: 3%;
 }
 h1{
-    font-size: 40px;
+    font-size: 200%;
     padding-bottom: 1%;
 }
 .info1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: auto;
+    margin: auto;
 }
 .info1 p{
-    width: 40%;
-    font-size: 20px;
+    width: 80%;
+    font-size: 200%;
     padding: 3%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -100,10 +110,16 @@ h1{
     font-style: italic;
     text-align: center;
 }
+.info1 h1{
+    color: #F2545B;
+    padding: 1%;
+}
 .info2{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    padding: auto;
+    margin: auto;
 }
 .info2 p{
     width: 20%;
@@ -118,6 +134,12 @@ h1{
     border-radius: 2%;
     background:#F2545B;
     color: #f4c1c1;
+}
+.info2 div{
+    width: 500px;
+    height: 500px;
+    padding-bottom: 10%;
+
 }
 .contact_container{
     width: 100%;
@@ -134,28 +156,19 @@ h1{
 .contact_container a:hover{
     background:#F2545B;
 }
-.container{
-    display: flex;
-    flex-direction: row;
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
-.container img{
-    box-sizing: border-box;
-    width: 350px;
-    height: 350px;
-    padding: 5%;
-    padding-bottom: 0%;
-}
-.container h3{
-    font-size: 20px;
+h3{
+    padding: 1%;
+    padding-top: 0%;
+    margin-top: 0%;
+    font-size: 150%;
+    width: 50%;
+    margin: auto;
     text-align: center;
-    width: 60%;
-    padding: 2%;
     background:#F2545B;
     color: #f4c1c1;
-    border: solid #F3F7F0  0.5px;
-}
-.container div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
