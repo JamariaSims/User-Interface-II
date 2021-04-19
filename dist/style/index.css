@@ -180,48 +180,97 @@ h1{
 .contact_container a:hover{
     background:#F2545B;
 }
+.menu-button{
+    display: none;
+}
+.sticky{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+}
 
 @media screen and (max-width : 600px){
+/* page guideline settings */
 *{
     padding: 0%;
     margin: 0%;
     flex-direction: column;
 }
-.header{
+/* ------------------------------------ */
+
+/* menu button settings */
+.menu-button{
+    display: flex;
+    position: absolute;
+    right: 0%;
+    width: 60px;
+    background: #F2545B;
+    color: #f4c1c1;
+    text-align: center;
+}
+
+.menu-button h3{
+    padding: 25%;
+}
+.menu-button.open a{
+display: flex;
+padding: 20%;
+}
+#menuList{
+    display: flex;
     flex-direction: column;
+}
+.listMenu{
+    display: none;
+}
+/* ------------------------------------ */
+
+/* header settings */
+.header{
+    font-size: 80%;
 }
 .header h1{
-    padding: auto;
-    margin: auto;
+    width: 100%;
+    left: 0%;
 }
-ul{
+.center_info{
     flex-direction: column;
+    justify-content: center;
+}
+.center_info img{
+    width: 100%;
+}
+/* ------------------------------------ */
+body a{
+    width: 100%;
     text-align: center;
-    width: 30%;
-    padding: auto;
-    margin: auto;
 }
 .projects_container1{
     display: flex;
     flex-direction: column;
+    margin-top: 0%;
+    width: 100%;
 }
 .projects_container1 img{
-    width: 50%;
-    object-fit: scale-down;
+    width: 100%;
+    margin-top: 0%;
+    object-fit: cover;
 }
 .projects_container2{
     display: flex;
     flex-direction: column;
+    margin-top: 0%;
+    width: 100%;
 }
 .projects_container2 img{
-    width: 50%;
-    object-fit: scale-down;
-}
-.center_info{
-        flex-direction: column;
-        justify-content: center;
+    width: 100%;
+    margin-top: 0%;
+    object-fit: cover;
 }
 .img_container{
     align-items: center;
+    margin-top: 0%;
+    width: 100%;
 }
 }
